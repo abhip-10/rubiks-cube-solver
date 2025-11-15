@@ -1,0 +1,21 @@
+# Executables
+*.exe
+*.out
+gen_pdb
+
+# Pattern databases (too large for git, regenerate locally)
+pdbs/*.bin
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled Object files
+*.o
+*.obj
